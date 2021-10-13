@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ce5845c548576240e1a3079f999301f",
+    "content-hash": "46210b8d6f25276633edd00283abb696",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3176,6 +3176,48 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "rvtraveller/qs-composer-installer",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rvtraveller/qs-composer-installer.git",
+                "reference": "3d25d4a4348adc8b2276f9cb23eb53393d85c01e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rvtraveller/qs-composer-installer/zipball/3d25d4a4348adc8b2276f9cb23eb53393d85c01e",
+                "reference": "3d25d4a4348adc8b2276f9cb23eb53393d85c01e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "composer/installers": "^1.9"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.* || 2.0.*@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "rvtraveller\\QuicksilverComposerInstaller\\QuicksilverComposerInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "rvtraveller\\QuicksilverComposerInstaller\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Install Quicksilver modules for Pantheon into custom locations.",
+            "homepage": "https://github.com/rvtraveller/qs-composer-installer",
+            "support": {
+                "issues": "https://github.com/rvtraveller/qs-composer-installer/issues",
+                "source": "https://github.com/rvtraveller/qs-composer-installer/tree/1.2"
+            },
+            "time": "2021-01-04T22:27:18+00:00"
         },
         {
             "name": "stack/builder",

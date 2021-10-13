@@ -1,0 +1,14 @@
+uuid: 02ff32b5-9f4c-4f92-88c3-62a6350088bc
+name: qs-pushback-testing-101321
+mail: bthompson@mindgrub.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
